@@ -466,12 +466,12 @@ public class AHBottomNavigation extends FrameLayout {
 					}
 				});
 				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
-						current ? itemActiveColor : itemInactiveColor, forceTint));
+				// 		current ? itemActiveColor : itemInactiveColor, forceTint));
 				title.setTextColor(current ? itemActiveColor : itemInactiveColor);
 				view.setSoundEffectsEnabled(soundEffectsEnabled);
 			} else {
 				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
-						itemDisableColor, forceTint));
+				// 		itemDisableColor, forceTint));
 				title.setTextColor(itemDisableColor);
 			}
 
@@ -583,7 +583,7 @@ public class AHBottomNavigation extends FrameLayout {
 
 			if (itemsEnabledStates[i]) {
 				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
-						currentItem == i ? itemActiveColor : itemInactiveColor, forceTint));
+				// 		currentItem == i ? itemActiveColor : itemInactiveColor, forceTint));
 				title.setTextColor(currentItem == i ? itemActiveColor : itemInactiveColor);
 				title.setAlpha(currentItem == i ? 1 : 0);
 				view.setOnClickListener(new OnClickListener() {
@@ -595,7 +595,7 @@ public class AHBottomNavigation extends FrameLayout {
 				view.setSoundEffectsEnabled(soundEffectsEnabled);
 			} else {
 				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
-						itemDisableColor, forceTint));
+				// 		itemDisableColor, forceTint));
 				title.setTextColor(itemDisableColor);
 				title.setAlpha(0);
 			}
@@ -667,8 +667,8 @@ public class AHBottomNavigation extends FrameLayout {
 				AHHelper.updateLeftMargin(notification, notificationInactiveMarginLeft, notificationActiveMarginLeft);
 				AHHelper.updateTextColor(title, itemInactiveColor, itemActiveColor);
 				AHHelper.updateTextSize(title, inactiveSize, activeSize);
-				AHHelper.updateDrawableColor(context, items.get(itemIndex).getDrawable(context), icon,
-						itemInactiveColor, itemActiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(itemIndex).getDrawable(context), icon,
+				// 		itemInactiveColor, itemActiveColor, forceTint);
 
 				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && colored) {
 
@@ -728,8 +728,8 @@ public class AHBottomNavigation extends FrameLayout {
 				AHHelper.updateLeftMargin(notification, notificationActiveMarginLeft, notificationInactiveMarginLeft);
 				AHHelper.updateTextColor(title, itemActiveColor, itemInactiveColor);
 				AHHelper.updateTextSize(title, activeSize, inactiveSize);
-				AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
-						itemActiveColor, itemInactiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
+				// 		itemActiveColor, itemInactiveColor, forceTint);
 			}
 		}
 
@@ -794,8 +794,8 @@ public class AHBottomNavigation extends FrameLayout {
 				}
 
 				AHHelper.updateAlpha(title, 0, 1);
-				AHHelper.updateDrawableColor(context, items.get(itemIndex).getDrawable(context), icon,
-						itemInactiveColor, itemActiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(itemIndex).getDrawable(context), icon,
+				// 		itemInactiveColor, itemActiveColor, forceTint);
 
 				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && colored) {
 					int finalRadius = Math.max(getWidth(), getHeight());
@@ -861,8 +861,8 @@ public class AHBottomNavigation extends FrameLayout {
 				}
 
 				AHHelper.updateAlpha(title, 1, 0);
-				AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
-						itemActiveColor, itemInactiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
+				// 		itemActiveColor, itemInactiveColor, forceTint);
 			}
 		}
 
