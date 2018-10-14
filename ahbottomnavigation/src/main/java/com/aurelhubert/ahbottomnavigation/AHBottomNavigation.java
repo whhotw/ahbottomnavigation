@@ -433,7 +433,7 @@ public class AHBottomNavigation extends FrameLayout {
 				}
 			}
 
-			icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+			// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 					current ? itemActiveColor : itemInactiveColor, forceTint));
 			title.setTextColor(current ? itemActiveColor : itemInactiveColor);
 			title.setTextSize(TypedValue.COMPLEX_UNIT_PX, current ? activeSize : inactiveSize);
@@ -551,7 +551,7 @@ public class AHBottomNavigation extends FrameLayout {
 				}
 			}
 
-			icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+			// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 					currentItem == i ? itemActiveColor : itemInactiveColor, forceTint));
 			title.setTextColor(currentItem == i ? itemActiveColor : itemInactiveColor);
 			title.setAlpha(currentItem == i ? 1 : 0);
