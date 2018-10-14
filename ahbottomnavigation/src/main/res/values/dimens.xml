@@ -7,7 +7,7 @@
     <dimen name="bottom_navigation_height">56dp</dimen>
     <dimen name="bottom_navigation_icon">40dp</dimen>
 
-    <dimen name="bottom_navigation_margin_top_active">0dp</dimen>
+    <dimen name="bottom_navigation_margin_top_active">6dp</dimen>
     <dimen name="bottom_navigation_margin_top_inactive">6dp</dimen>
     <dimen name="bottom_navigation_margin_bottom">7dp</dimen>
     <dimen name="bottom_navigation_padding_left">12dp</dimen>
@@ -26,7 +26,7 @@
     <dimen name="bottom_navigation_small_inactive_max_width">96dp</dimen>
 
     <dimen name="bottom_navigation_small_margin_top_active">6dp</dimen>
-    <dimen name="bottom_navigation_small_margin_top">0dp</dimen>
+    <dimen name="bottom_navigation_small_margin_top">6dp</dimen>
     <dimen name="bottom_navigation_small_margin_bottom">6dp</dimen>
 
     <dimen name="bottom_navigation_small_selected_width_difference">10dp</dimen>
