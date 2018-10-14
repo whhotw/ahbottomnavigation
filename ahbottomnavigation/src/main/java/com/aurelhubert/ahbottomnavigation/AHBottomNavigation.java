@@ -691,8 +691,8 @@ public class AHBottomNavigation extends FrameLayout {
 				AHHelper.updateLeftMargin(notification, notificationActiveMarginLeft, notificationInactiveMarginLeft);
 				AHHelper.updateTextColor(title, itemActiveColor, itemInactiveColor);
 				AHHelper.updateTextSize(title, activeSize, inactiveSize);
-				AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
-						itemActiveColor, itemInactiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
+				// 		itemActiveColor, itemInactiveColor, forceTint);
 			}
 		}
 
@@ -824,8 +824,8 @@ public class AHBottomNavigation extends FrameLayout {
 				}
 
 				AHHelper.updateAlpha(title, 1, 0);
-				AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
-						itemActiveColor, itemInactiveColor, forceTint);
+				// AHHelper.updateDrawableColor(context, items.get(currentItem).getDrawable(context), icon,
+				// 		itemActiveColor, itemInactiveColor, forceTint);
 			}
 		}
 
