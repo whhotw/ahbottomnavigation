@@ -465,12 +465,12 @@ public class AHBottomNavigation extends FrameLayout {
 						updateItems(itemIndex, true);
 					}
 				});
-				icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 						current ? itemActiveColor : itemInactiveColor, forceTint));
 				title.setTextColor(current ? itemActiveColor : itemInactiveColor);
 				view.setSoundEffectsEnabled(soundEffectsEnabled);
 			} else {
-				icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 						itemDisableColor, forceTint));
 				title.setTextColor(itemDisableColor);
 			}
@@ -582,7 +582,7 @@ public class AHBottomNavigation extends FrameLayout {
 			}
 
 			if (itemsEnabledStates[i]) {
-				icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 						currentItem == i ? itemActiveColor : itemInactiveColor, forceTint));
 				title.setTextColor(currentItem == i ? itemActiveColor : itemInactiveColor);
 				title.setAlpha(currentItem == i ? 1 : 0);
@@ -594,7 +594,7 @@ public class AHBottomNavigation extends FrameLayout {
 				});
 				view.setSoundEffectsEnabled(soundEffectsEnabled);
 			} else {
-				icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
+				// icon.setImageDrawable(AHHelper.getTintDrawable(items.get(i).getDrawable(context),
 						itemDisableColor, forceTint));
 				title.setTextColor(itemDisableColor);
 				title.setAlpha(0);
