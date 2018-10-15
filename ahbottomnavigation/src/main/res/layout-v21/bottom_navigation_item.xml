@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="@dimen/bottom_navigation_margin_bottom"
+        android:layout_marginBottom="@dimen/bottom_navigation_text_margin_bottom"
         android:layout_marginTop="@dimen/bottom_navigation_margin_top_inactive"
         android:gravity="center"
         android:lines="1"

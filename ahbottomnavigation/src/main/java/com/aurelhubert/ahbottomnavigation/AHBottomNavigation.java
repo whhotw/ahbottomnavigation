@@ -426,7 +426,7 @@ public class AHBottomNavigation extends FrameLayout {
 				// Update margins (icon & notification)
 				if (view.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
 					ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) icon.getLayoutParams();
-					p.setMargins(p.leftMargin, activePaddingTop, p.rightMargin, 4);
+					p.setMargins(p.leftMargin, activePaddingTop, p.rightMargin, p.bottomMargin);
 
 					ViewGroup.MarginLayoutParams paramsNotification = (ViewGroup.MarginLayoutParams)
 							notification.getLayoutParams();
