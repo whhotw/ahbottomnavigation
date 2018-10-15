@@ -415,7 +415,7 @@ public class AHBottomNavigation extends FrameLayout {
 			}
 
 			if (titleState == TitleState.ALWAYS_SHOW && items.size() > MIN_ITEMS) {
-				container.setPadding(0, container.getPaddingTop(), 0, 6);
+				container.setPadding(0, container.getPaddingTop(), 0, container.getPaddingBottom());
 			}
 
 			if (current) {
@@ -426,7 +426,7 @@ public class AHBottomNavigation extends FrameLayout {
 				// Update margins (icon & notification)
 				if (view.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
 					ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) icon.getLayoutParams();
-					p.setMargins(p.leftMargin, activePaddingTop, p.rightMargin, p.bottomMargin);
+					p.setMargins(p.leftMargin, activePaddingTop, p.rightMargin, 8);
 
 					ViewGroup.MarginLayoutParams paramsNotification = (ViewGroup.MarginLayoutParams)
 							notification.getLayoutParams();
