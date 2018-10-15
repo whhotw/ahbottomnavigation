@@ -415,7 +415,7 @@ public class AHBottomNavigation extends FrameLayout {
 			}
 
 			if (titleState == TitleState.ALWAYS_SHOW && items.size() > MIN_ITEMS) {
-				container.setPadding(0, container.getPaddingTop(), 0, container.getPaddingBottom());
+				container.setPadding(0, container.getPaddingTop(), 0, 6);
 			}
 
 			if (current) {
